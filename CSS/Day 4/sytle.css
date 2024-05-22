@@ -1,2 +1,7 @@
 h1{color: blue; background-color: black;}
-   
+p{
+    color: red;
+}
+button{
+    color: black; background-color: red;
+}  
