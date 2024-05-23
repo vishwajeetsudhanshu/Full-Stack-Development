@@ -1,0 +1,34 @@
+
+#outer{
+   height: 200px;
+   width: 70px;
+   border: 2px solid rgb(8, 8, 8);
+   border-radius: 0px;
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50px;
+}
+#red{
+    background-color: red;
+   
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration:brown underline;
+    text-transform: uppercase;
+}

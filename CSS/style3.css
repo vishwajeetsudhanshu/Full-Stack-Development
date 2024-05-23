@@ -1,0 +1,13 @@
+div{
+    background-color: rgb(115, 255, 0);
+}
+
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+button:hover{
+    background-color:  purple;
+}
