@@ -1,3 +1,6 @@
+h3{
+    background-color: aquamarine !important;
+}
 *{
     font-family: 'Courier New';
     
@@ -59,4 +62,27 @@ h3:hover{
 button:active{
     background-color: pink;
     color: #b92b27;
+}
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+
+}
+.post:nth-of-type(1n){
+    background-color: #b92b27;
+}
+h1::first-letter{
+    color: #b258b227;
+}
+p::first-line{
+    color: purple;
+}
+p::selection{
+    background-color: rgb(224, 30, 65);
+}
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
 }
