@@ -21,7 +21,7 @@ console.log(p ** q);
 console.log(p++);//15
 console.log(++p);//17
 
-//comparison operator
+//comparison operator > < >= <= == !=
 let age=18;
 
 
