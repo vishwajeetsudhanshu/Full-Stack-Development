@@ -18,3 +18,15 @@ console.log(fruits);
 fruits[15]="papaya";
 console.log(fruits);
 //Array Methods
+//push
+let car=["Audi","Maruti","Bmw"];
+car.push("Toyoto");
+console.log("After push",car);
+car.pop();
+console.log("After pop",car);
+console.log(car);
+car.unshift("Lambo");
+console.log("After Shift",car);
+car.shift();
+console.log("After unshift",car);
+
