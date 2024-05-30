@@ -22,4 +22,6 @@ console.log(string.slice(2,4));
 console.log(string.slice(4));
 console.log(string.slice(-2));//11-2=9
 //Replace Methods
-
+console.log(string.replace("Coding","You"));
+//repeat
+console.log("repeat method",string.repeat(5));
