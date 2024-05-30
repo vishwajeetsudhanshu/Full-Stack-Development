@@ -26,7 +26,7 @@ car.pop();
 console.log("After pop",car);
 console.log(car);
 car.unshift("Lambo");
-console.log("After Shift",car);
+console.log("After unShift",car);
 car.shift();
-console.log("After unshift",car);
+console.log("After shift",car);
 
