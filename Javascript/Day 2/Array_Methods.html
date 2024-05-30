@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b><i>Array Methods</i></b></h1>
+    <ul>
+        <li>indesOf</li>
+        <p>let primary=['red','yellow','blue'];</p>
+        <p>format=primary.indexOf("red")//1</p><!--1-->
+        <li>includes</li>
+        <p>console.log("includes",primary.includes('yellow'))//True;</p><!--true-->
+        <li><b>Concat</b> Merge 2 array</li>
+        <p>let secondary=['orange','green','black'];
+            console.log("Concat 2 Array",primary.concat(secondary));</p>
+        <li><b>reverse</b> Reverse an array</li>
+        <p>console.log("Reverse an array",primary.reverse());</p>
+        <li><b>Slice Methods</b> copies a portion of an array</li>
+        <p>let colors=['red','yellow','blue','orange','pink','white'];
+            console.log("After slice",colors.slice());
+            console.log("After slice",colors.slice(2));
+            console.log("After slice",colors.slice(2,3));
+            console.log("After slice",colors.slice(-2));</p>
+        <li><b>Splice</b>  removes/replace/add elements in place in original</li>
+        <p>format= splice(start,deleteCount,item0....itemN)</p>
+        <p><i>console.log("After splice",colors.splice(4));
+            console.log("After splice",colors.splice(0,1));
+            console.log("After splice",colors.splice(0,1,'black','grey'));
+            console.log("After splice",colors);</i></p>
+            
+            <script src="Methods.js"></script>
+    </ul>
+</body>
+</html>
