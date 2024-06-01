@@ -31,3 +31,8 @@ console.log("After splice",colors);
 console.log("Sort array",colors.sort());
 let car=["Audi","Maruti","Bmw "];
 console.log("Sort array",car.sort());
+
+
+//Nested Arrays
+let numbs=[[2,4],[3,6],[4,8]];
+console.log("Nested Arrays ",numbs);
