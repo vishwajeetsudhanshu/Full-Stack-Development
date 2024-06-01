@@ -29,5 +29,5 @@ console.log("After splice",colors);
 
 //Sort array
 console.log("Sort array",colors.sort());
-let car=["Audi","Maruti","Bmw"];
+let car=["Audi","Maruti","Bmw "];
 console.log("Sort array",car.sort());
