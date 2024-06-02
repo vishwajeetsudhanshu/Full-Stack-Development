@@ -4,5 +4,5 @@ start.shift();
 console.log(start);
 start.shift();
 start.unshift("june");
-start.unshift("july");
+start.unshift("july" );
 console.log("After changes",start);
