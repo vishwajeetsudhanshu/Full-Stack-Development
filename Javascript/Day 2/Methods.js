@@ -25,7 +25,7 @@ console.log("After slice",colors.slice(-2));
 console.log("After splice",colors.splice(4));
 console.log("After splice",colors.splice(0,1));
 console.log("After splice",colors.splice(0,1,'black','grey'));
-console.log("After splice",colors);
+console.log("After splice",colors );
 
 //Sort array
 console.log("Sort array",colors.sort());
