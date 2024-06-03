@@ -31,6 +31,8 @@ console.log("After splice",colors );
 console.log("Sort array",colors.sort());
 let car=["Audi","Maruti","Bmw "];
 console.log("Sort array",car.sort());
+let sqr=[16,25,9,49,81];
+console.log("Sort an sqr",sqr.sort());
 
 
 //Nested Arrays
