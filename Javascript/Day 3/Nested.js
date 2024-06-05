@@ -18,7 +18,21 @@ for (let j=0; j<heros.length; j++){
 let student=[['aman',95],['anku',89],['anu',99]];
 console.log(student);
 for(let m=0;m<student.length;m++){
-    console.log(`Info. of student #${m}`)
+    console.log(`Info. of student #${m+1}`)
     for(let n=0;n<student[m].length;n++)
         console.log(student [m][n]);
+}
+// for of loop
+let fruits=['mango','apple','banana','litchi','orange'];
+for(fruit of fruits){
+    console.log(fruit)
+}
+// nested for of loop
+
+let heroes=[['ironman','spiderman','thor'],
+    ['superwoman','wonder woman','flash']];
+for(list of heroes){
+    for(hero of list){
+        console.log(hero);
+    }
 }

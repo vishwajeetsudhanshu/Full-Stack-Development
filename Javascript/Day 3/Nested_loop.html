@@ -7,9 +7,38 @@
 </head>
 <body>
     <h1>Nested Loops</h1>
-
+    <p>Format=<i>let i=1;
+        for(i;i<=5;i++){
+            console.log(`outer loop ${i}`);
+            for(let j=1;j<=5;j++){
+            console.log(j)}
+        };
+        
+        </i></p>
     <h3>Loops with Arrays</h3>
     <p>Nested Loops with Nested Arrays</p>
+    <p>Format=<i>let heros=[['ironman','spiderman','thor'],
+        ['superwoman','wonder woman','flash']];
+    for (let j=0; j<heros.length; j++){
+        console.log(`List #${j}`);
+        for (let k=0 ; k<heros[j].length; k++){
+            console.log(heros[j][k]);
+        }
+    }
+    </i></p>
+    <h3>For of loop</h3>
+    <p>Format=<i>let fruits=['mango','apple','banana','litchi','orange'];
+        for(fruit of fruits){
+            console.log(fruit)
+        }</i></p>
+    <h3>Neste for of loop</h3>
+    <p>Format=<i>let heroes=[['ironman','spiderman','thor'],
+        ['superwoman','wonder woman','flash']];
+    for(list of heroes){
+        for(hero of list){
+            console.log(hero);
+        }
+    }</i></p>
     <script src="Nested.js"> </script>
 </body>
 </html>
