@@ -11,3 +11,4 @@ console.log("First Name",firstName);
 console.log("Last Name",lastName);
 let name=firstName.concat(lastName);
 console.log(name);
+alert(name);
