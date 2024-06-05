@@ -1,0 +1,13 @@
+alert("Hii! I'm Sudhansoo");
+//console.log(msg);
+console.log("Hii! this is sudhansoo");
+console.error("Sudhansoo is Fake");
+console.warn("This is not Sudhansoo");
+let msg=prompt("Enter your Name");
+console.log(msg);
+let firstName=prompt("Enter your First name");
+let lastName=prompt("Enter your last name");
+console.log("First Name",firstName);
+console.log("Last Name",lastName);
+let name=firstName.concat(lastName);
+console.log(name);
