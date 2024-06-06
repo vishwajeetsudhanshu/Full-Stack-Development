@@ -33,3 +33,12 @@ function table(n){
 }
 console.log("The table of 4 is");
 table(4);
+
+function getSum(n){
+    let sum=0;
+    for(let i=1;i<=n;i++){
+        sum +=i;
+    }
+    return sum;
+}
+console.log(getSum(5));
