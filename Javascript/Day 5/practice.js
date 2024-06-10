@@ -42,3 +42,5 @@ function getSum(n){
     return sum;
 }
 console.log(getSum(5));
+getSum(10);
+rollDice();
