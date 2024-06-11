@@ -23,3 +23,7 @@ function isAdult(){
     }
 }
 isAdult();
+isAdult();
+hello();
+priName();
+pri1to5();
