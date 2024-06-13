@@ -34,11 +34,12 @@ function table(n){
 console.log("The table of 4 is");
 table(4);
 
-function getSum(n){
+
+function getsum(n){
     let sum=0;
-    for(let i=1;i<=n;i++){
-        sum +=i;
+    for(i=0;i<=n;i=i+1){
+        sum=sum+i
     }
     return sum;
 }
-console.log(getSum(5));
+console.log(getsum(3));
