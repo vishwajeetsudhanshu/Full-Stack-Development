@@ -42,12 +42,3 @@ function getSum(n){
     return sum;
 }
 console.log(getSum(5));
-getSum(10);
-rollDice();
-function table1(n){
-    for(let i=n;i<=n*10;i=i+n){
-        console.log(i);
-    }
-}
-console.log("The table of 5 is");
-table1(5);
