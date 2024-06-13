@@ -43,3 +43,13 @@ function getsum(n){
     return sum;
 }
 console.log(getsum(3));
+console.log("Create a Function that returns the concatenation of all strings in an array");
+let str=["hello","hii "," sunny"," !"];
+function concat(str){
+    let result="";
+    for (let i=0;i<str.length;i++){
+        result+=str[i];
+    }
+    return result;
+}
+console.log(concat(str));
