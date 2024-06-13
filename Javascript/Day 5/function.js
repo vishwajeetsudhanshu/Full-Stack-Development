@@ -14,7 +14,7 @@ function pri1to5(){
 }
 pri1to5();
 function isAdult(){
-    let age=15;
+    let age=25;
     if(age>=18){
         console.log("Adult")
     }
