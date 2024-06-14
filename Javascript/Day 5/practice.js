@@ -55,13 +55,14 @@ function concat(str){
 console.log(concat(str));
 
 console.log("7");
-let greet="Hello";
+let greet="Hello";//global scope
 function changegreet(){
-    let greet="Namaste";
+    let greet="Namaste";//function scope
     console.log(greet);
     function innerfunc(){
-        console.log(greet);
+        console.log(greet);//lexical scope
     }
+    innerfunc();
 }
 console.log(greet);
 changegreet();
