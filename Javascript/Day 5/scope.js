@@ -13,4 +13,15 @@ if(age>=18){
     let str="adult";//Block Scope
     console.log(str)
 }
-console.log(str)//gives error
+//console.log(str)//gives error
+
+console.log("Lexical Scope");
+function outerfunc(){
+    let x=5;
+    let y=10;
+    function Innerfunc(){
+        console.log(x);
+        console.log(y);
+    }
+    Innerfunc();
+}
