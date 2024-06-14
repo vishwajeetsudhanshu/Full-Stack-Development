@@ -16,3 +16,8 @@ const hello=()=>{
     console.log("Hello");
 }
 hello();
+console.log("Implict return in arrow Functions");
+const mul=(a,b)=>(
+    a*b
+);
+console.log(mul(4,5));
