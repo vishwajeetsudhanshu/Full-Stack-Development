@@ -53,3 +53,15 @@ function concat(str){
     return result;
 }
 console.log(concat(str));
+
+console.log("7");
+let greet="Hello";
+function changegreet(){
+    let greet="Namaste";
+    console.log(greet);
+    function innerfunc(){
+        console.log(greet);
+    }
+}
+console.log(greet);
+changegreet();
