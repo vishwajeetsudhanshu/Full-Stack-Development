@@ -19,3 +19,15 @@ let aaar=[{
     aaar.forEach((student)=>{
         console.log(student.marks)
     })
+console.log("Every Function");
+let arrr=[2,4,9,8];
+let alleven=arrr.every((el)=>
+     el%2==0
+);
+console.log(alleven);
+console.log("Some Function");
+let arrr1=[2,4,9,8];
+let someeven=arrr1.some((el)=>
+     el%2==0
+);
+console.log(someeven);
