@@ -83,5 +83,7 @@ para.insertAdjacentElement('beforebegin',btn);
 para.insertAdjacentElement('afterbegin',btn2);
 para.insertAdjacentElement('beforeend',btn3);
 para.insertAdjacentElement('afterend',btn4);
+body.removeChild(btn);
+
 
 
