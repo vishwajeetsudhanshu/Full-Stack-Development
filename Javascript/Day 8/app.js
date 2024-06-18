@@ -24,7 +24,7 @@ para.innerText="Hi I'm Peter";
 para.innerHTML="Hi I'm <b>Peter Parkar</b>";
 let  head=document.querySelector('h1');
 //head.innerHTML="<u>Spider-Man</u>";
-head.innerHTML=`<u>${head.innerText}</u>`;
+//head.innerHTML=`<u>${head.innerText}</u>`;
 let img=document.querySelector('img');
 console.log(img);
 console.dir(img);
@@ -34,9 +34,19 @@ img.setAttribute('src','img/1.jpg');
 console.log("Manipulating Styles");
 console.log(img.style);
 console.log(head.style);
-console.log(head.style.color='green');
+//console.log(head.style.color='green');
 console.log(head.style.backgroundColor='pink')
-let links=document.querySelectorAll(".box a");
-for(let i=0;i<links.length;i++){
-    console.log(links[i].style.color='purple');//inline style
-}
+//let links=document.querySelectorAll(".box a");
+//for(let i=0;i<links.length;i++){
+    //console.log(links[i].style.color='purple');//inline style
+//}
+console.log(img.classList);
+head.classList.add("green");
+head.classList.add("under");
+head.classList.remove("green");
+//head.setAttribute('class','green');
+console.log(head.classList.contains("green"));
+
+console.log(head.classList.toggle("under"));
+let box=document.querySelector('.box');
+box.classList.add("yellow");
