@@ -6,4 +6,7 @@ for(let i=0;i<smallimg.length;i++){
     console.log(smallimg[i]);
     console.log(`value of image no. ${[i]} is changed`)
 
-}                                                        
+}     
+console.log("Selecting elements by Tag Name");                                                   
+let id=document.getElementsByTagName("p");
+console.dir(id);
