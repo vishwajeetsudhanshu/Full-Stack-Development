@@ -10,3 +10,9 @@ for(let i=0;i<smallimg.length;i++){
 console.log("Selecting elements by Tag Name");                                                   
 let id=document.getElementsByTagName("p");
 console.dir(id);
+console.log("Query Selector");
+let firp=document.querySelector("h1");
+console.dir(firp);
+console.dir(document.querySelector(".oldImg"));
+console.dir(document.querySelectorAll(".oldImg"));
+console.dir(document.querySelectorAll("div a"));
