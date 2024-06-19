@@ -1,1 +1,7 @@
-
+.box{
+    height: 100px;
+    width:100px;
+    margin: auto;
+    background-color: green;
+    border: 5px solid black;
+}

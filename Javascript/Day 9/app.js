@@ -32,3 +32,11 @@ let btns=document.querySelectorAll('button');
             console.log("Yo Sudhanso dblclick");
         });
     }
+let para=document.querySelector('p');
+para.addEventListener("mouseenter",function(){
+    alert("Para was on mouse enter");
+})
+let box=document.querySelector('div');
+    box.addEventListener("mouseenter",function(){
+        alert("That's the div");
+    })
