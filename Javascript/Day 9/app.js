@@ -1,0 +1,23 @@
+let btn=document.querySelector('button');
+console.dir(btn);
+btn.onclick=function(){
+    alert("Button was Clicked");
+    console.log("Button was click");
+}
+function say(){
+    alert("Hello")
+}
+btn.onclick=say;
+//let btns=document.querySelectorAll('button');
+//for(btn of btns){
+  //  btn.onclick=say;
+    
+//}
+let btns=document.querySelectorAll('button');
+for(btn of btns){
+    btn.onclick=say;
+    btn.onmouseenter=function(){
+        console.log("Buttons was clicked");
+    };
+    
+}
