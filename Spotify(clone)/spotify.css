@@ -161,13 +161,12 @@ a{
   width: 150px;
   border-radius: 0.5rem;
   padding: 1rem;
+  margin: 1.5rem;
   
 }
 .card-container{
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem; 
-  border: 1px
+  
 }
 .card-img{
   width: 100%;
