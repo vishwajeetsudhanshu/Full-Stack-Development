@@ -18,8 +18,8 @@ const g=9.8;
 // };
 
 
-module.exports=obj;
+// module.exports=obj;
 
-module.exports sum=(a,b)=>a+b;
-const mul2=(a,b)=>a*b;
-const g=9.8;
+//module.exports sum1=(a,b)=>a+b;
+// const mul2=(a,b)=>a*b;
+// const g2=9.8;
