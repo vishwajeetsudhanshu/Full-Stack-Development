@@ -1,19 +1,19 @@
-// const express=require("express");
-// const app=express();
+const express=require("express");
+const app=express();
 
-// console.dir(app);
+console.dir(app);
 
-// let port=8080;
-// app.listen(port,()=>{
-//     console.log(`app listening on port ${port}`);
-// });
+let port2=8080;
+app.listen(port,()=>{
+    console.log(`app listening on port ${port}`);
+});
 
-// app.use((req,res) => {
-//     console.log("request received");
+app.use((req,res) => {
+    console.log("request received");
 
-// });
+});
 const express = require("express");
-const app = express();
+const app2 = express();
 
 console.dir(app);
 
