@@ -163,10 +163,12 @@ a{
   border-radius: 0.5rem;
   padding: 1rem;
   margin: 1.5rem;
+  margin-top: 1rem;
   
 }
 .card-container{
   display: flex;
+  flex-wrap: wrap;
   
 }
 .card-img{
@@ -177,6 +179,6 @@ a{
   font-weight: 600;
 }
 .card-info{
-  font-size: 0.85rem;
-  opacity: 0.5;
+  font-size: 0.75rem;
+  opacity: 0.5rem;
 }
