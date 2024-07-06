@@ -199,17 +199,27 @@ a{
 
 .music-player{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .album{
   width: 25%;
-}
+}  
 .player{
   width: 50%;
 }
 .controls{
   width: 25%;
 }
+
+.player-controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .player-control-icon{
   height: 1rem;
-  
+  margin-right: 2rem;
+
 }
