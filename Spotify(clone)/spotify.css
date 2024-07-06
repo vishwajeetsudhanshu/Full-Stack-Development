@@ -253,4 +253,19 @@ a{
   margin-top: -6px;
 
 }
+.album{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.album-control{
+  height: 1rem;
+  margin-right: 1.75rem;
+  opacity: 0.7;
+}
+.album-control-icon{
+  height: 1.5rem;
+  margin-right: 1.75rem;
+  opacity: 0.7;
+}
