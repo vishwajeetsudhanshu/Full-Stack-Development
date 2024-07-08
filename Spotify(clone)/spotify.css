@@ -269,3 +269,13 @@ a{
   margin-right: 1.75rem;
   opacity: 0.7;
 }
+.control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.other-control{
+  height: 1.5rem;
+  margin-right: 1.75rem;
+  opacity: 0.7;
+}
