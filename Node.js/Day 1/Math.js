@@ -10,3 +10,9 @@ let obj={
     pie:pie,
 };
 module.exports=obj;
+// module.exports= {
+//     sum:sum,
+//     mul:mul,
+//     g:g,
+//     pie:pie,
+// };
