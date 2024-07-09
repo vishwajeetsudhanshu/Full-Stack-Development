@@ -12,7 +12,7 @@ let obj={
 module.exports=obj;
 
 module.exports={
-    sum:sum,
+    sum:sum, 
     mul:mul,
     g:g,
 };
