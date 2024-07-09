@@ -1,2 +1,2 @@
 const someValue=require("./Math");
-console.log(someValue);
+console.log(someValue.sum(2,2)); 
