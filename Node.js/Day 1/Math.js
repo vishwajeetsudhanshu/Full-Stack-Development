@@ -16,3 +16,8 @@ module.exports=obj;
 //     g:g,
 //     pie:pie,
 // };
+// module.exports.sum=(a,b) => a+b;
+// module.exports. mul =(a,b) => a*b;
+// exports.sum=(a,b) => a+b;
+// exports. mul =(a,b) => a*b;
+
