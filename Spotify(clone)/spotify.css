@@ -158,6 +158,24 @@ a{
     display: none;
   }
 }
+.artist-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.artist{
+  background-color: #232323;
+  width: 150px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1.5rem;
+  margin-top: 1rem;
+
+}
+.artist-img{
+  width: 100%;
+  border-radius: 0.5rem;
+
+}
 .card{
   background-color: #232323;
   width: 150px;
