@@ -162,10 +162,10 @@ a{
   display: flex;
   flex-wrap: wrap;
 }
-/* .artist{
+.artist{
   background-color: #232323;
   width: 150px;
-  height: 150px;
+  height: 180px;
   border-radius: 51rem;
   padding: 1rem;
   margin: 1.5rem;
@@ -174,46 +174,9 @@ a{
 }
 .artist-img{
   width: 100%;
-  display: flex;
-  border-radius: 51rem;
+  border-radius: 2rem;
 
-} */
- /* Artist Container */
-/* Artist Container */
-.artist {
-  width: 250px; /* Adjust size as needed */
-  height: 250px; /* Adjust size as needed */
-  border-radius: 50%; /* Make it a circle */
-  overflow: hidden; /* Hide any content that overflows */
-  background-color: #232323; /* Background color for the circle */
-  margin: 1.5rem; /* Adjust margin as needed */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
-
-/* Artist Image */
-.artist-img {
-  width: 70%; /* Take full width of the container */
-  height: 70%; /* Take full height of the container */
-  object-fit: cover; /* Maintain aspect ratio and cover */
-  border-radius: 50%; /* Ensure the image is circular */
-}
-
-/* Artist Title */
-.artist-title {
-  font-weight: bold; /* Example font weight */
-  font-size: 1.1rem; /* Example font size */
-  margin-top: 0.5rem; /* Adjust spacing as needed */
-}
-
-/* Artist Info */
-.artist-info {
-  font-size: 0.9rem; /* Example font size */
-  opacity: 0.8; /* Example opacity */
-}
-
 .card{
   background-color: #232323;
   width: 150px;
