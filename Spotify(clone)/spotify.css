@@ -165,8 +165,8 @@ a{
 .artist{
   background-color: #232323;
   width: 150px;
-  height: 180px;
-  border-radius: 51rem;
+  height: 150px;
+  border-radius: 71rem;
   padding: 1rem;
   margin: 1.5rem;
   margin-top: 1rem;
@@ -174,7 +174,7 @@ a{
 }
 .artist-img{
   width: 100%;
-  border-radius: 2rem;
+  border-radius: 70rem;
 
 }
 .card{
